@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    width: 100% ;
+    height:100vh;
+    background-image: url("4321.png");
+     background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-shadow: 1px 2px 4px rgb(255, 255, 255)
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(226, 126, 12);
+    width: 500px;
+    height: 450px;
+    border-radius: 4px;
+    color: #0b0b0b;
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Agbalumo';font-size: 18px;
+}
+.form input{
+    border: 1px solid rgba(48, 47, 47, 0.3);
+    box-shadow: 1px 1px 2px rgba(180,180,180,0.3),
+    -1px -1px 2px rgba(180,180,180,0.3);
+    transform: translateY(50px);
+    display: block;
+    margin: 15px auto 0px auto;
+    height: 30px;
+    width: 80%;
+    border-radius: 2px;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+}
+.form input[type="submit"]{
+    margin-top: 30px;
+    background: rgb(255, 0, 0);
+    width: 77%;
+    border-radius: 2px;
+    color: rgb(255,255,255);
+    border: none;
+    font-size: 17px;
+    font-family: 'arial;
+}
+::placeholder{
+  position: relative;
+  left: 20px;
+  text-align: justify;
+}
+.title{
+    transform: translate(30px,40px);
+}
+.title p{
+    color: rgb(0, 0, 255);
+    font-weight: 600;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+  position: relative;
+  left: 50px;
+  top: -3px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
